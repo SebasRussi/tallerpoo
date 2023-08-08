@@ -1,9 +1,9 @@
 class Punto:
-    def __init__(self, eje_x: int, eje_y: int, otro_ejex, otro_ejey):
-        self.eje_x: int = eje_x
-        self.eje_y: int = eje_y
-        self.otro_ejex = otro_ejex
-        self.otro_ejey = otro_ejey
+    def __init__(self):
+        self.eje_x: int = 8
+        self.eje_y: int = -6
+        self.otro_ejex = 5
+        self.otro_ejey = -5
 
     def mostrar(self):
         print(self.eje_x, self.eje_y)
@@ -19,8 +19,7 @@ class Punto:
 
 
 if __name__ == "__main__":
-    p1 = Punto(8, -6, 5, -5)
-
+    p1 = Punto()
     p1.mostrar()
     p1.mover(1, -2)
     p1.calcular_distancia()
