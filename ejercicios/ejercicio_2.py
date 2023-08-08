@@ -19,8 +19,8 @@ class Punto:
 
 
 if __name__ == "__main__":
-    p1 = Punto(-4, -3, 2, 5)
+    p1 = Punto(8, -6, 5, -5)
 
     p1.mostrar()
-    p1.mover(8, 11)
+    p1.mover(1, -2)
     p1.calcular_distancia()
