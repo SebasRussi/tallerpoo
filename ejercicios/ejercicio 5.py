@@ -15,8 +15,6 @@ class Circulo:
         print(perimetro)
 
 
-
-
 if __name__ == "__main__":
     cir1 = Circulo(5, 3)
     cir1.calcular_area()
